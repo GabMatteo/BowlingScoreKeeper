@@ -19,3 +19,4 @@ RefactoringAction 1479312421118 Frame.java ADD int rollC FIELD
 RefactoringAction 1479312423167 Frame.java RENAME rollC=>int rollCurrent FIELD
 RefactoringAction 1479312430696 Frame.java RENAME rollCurrent=>int roll FIELD
 EditAction 1479313711183 Frame.java 997 6 11 0
+EditAction 1479313843705 BowlingGame.java 546 5 3 0

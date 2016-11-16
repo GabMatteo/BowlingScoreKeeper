@@ -7,7 +7,9 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	
-	public BowlingGame(){}
+	public BowlingGame(){
+		
+	}
 	
 	public void addFrame(Frame frame){
 		//to be implemented
@@ -18,7 +20,8 @@ public class BowlingGame {
 	}
 	
 	public int score(){
-		//to be implemented
+		int score = 0;
+
 		return 0;
 	}
 	
