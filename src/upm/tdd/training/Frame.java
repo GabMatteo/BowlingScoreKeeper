@@ -12,31 +12,44 @@ public class Frame {
 	
 	//the score of a single frame
 	public int score(){
-		//to be implemented
-		return 0;
-	}
+		int frame = 0;
+		int score = 0;
+
+		for (int i = 0; i < 10; i++) {
+			if (isStrike(frame)) {
+				score += 10 + bonus(frame);
+				frame++;
+			} else if (isSpare(frame)) {
+				score += 10 + bonus(frame);
+				frame += 2;
+			} else {
+				
+			}
+		}
+
+		return score;	}
 
 	//returns whether the frame is a strike or not
-	public boolean isStrike(){
-		//to be implemented
+	public boolean isStrike(int frame){
+		
 		return false;
 	}
 	
 	//return whether a frame is a spare or not
-	public boolean isSpare(){
-		//to be implemented
+	public boolean isSpare(int frame){
+		
 		return false;
 	}
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		//to be implemented
+		
 		return false;
 	}
 
 	//bonus throws
-	public int bonus(){
-		//to be implemented
+	public int bonus(int frame){
+		
 		return 0;
 	}
 

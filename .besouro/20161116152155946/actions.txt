@@ -1,0 +1,16 @@
+FileOpenedAction 1479306116455 TestBowlingScoreKeeper.java 197 1 1 0
+FileOpenedAction 1479306686429 Frame.java 748 6 7 0
+FileOpenedAction 1479306699020 BowlingException.java 148 0 0 0
+FileOpenedAction 1479307269628 Frame.java 748 6 7 0
+RefactoringAction 1479308270874 Frame.java ADD int FR FIELD
+RefactoringAction 1479308285901 Frame.java RENAME FR=>int FRAME_ FIELD
+RefactoringAction 1479308287914 Frame.java RENAME FRAME_=>int FRAME_MAX FIELD
+RefactoringAction 1479308637248 Frame.java ADD int noOf FIELD
+RefactoringAction 1479308639770 Frame.java RENAME noOf=>int noOfPins FIELD
+RefactoringAction 1479308650853 Frame.java RENAME noOfPins=>int noPins FIELD
+RefactoringAction 1479308816029 Frame.java REMOVE FRAME_MAX FIELD
+RefactoringAction 1479308816030 Frame.java REMOVE noPins FIELD
+RefactoringAction 1479312011768 Frame.java RENAME isStrike()=>boolean isStrike(int) METHOD
+RefactoringAction 1479312033335 Frame.java RENAME isSpare()=>boolean isSpare(int) METHOD
+RefactoringAction 1479312096906 Frame.java RENAME bonus()=>int bonus(int) METHOD
+EditAction 1479312157949 Frame.java 926 6 10 0
