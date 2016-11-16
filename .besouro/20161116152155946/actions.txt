@@ -14,3 +14,8 @@ RefactoringAction 1479312011768 Frame.java RENAME isStrike()=>boolean isStrike(i
 RefactoringAction 1479312033335 Frame.java RENAME isSpare()=>boolean isSpare(int) METHOD
 RefactoringAction 1479312096906 Frame.java RENAME bonus()=>int bonus(int) METHOD
 EditAction 1479312157949 Frame.java 926 6 10 0
+RefactoringAction 1479312378554 Frame.java ADD int FIELD
+RefactoringAction 1479312421118 Frame.java ADD int rollC FIELD
+RefactoringAction 1479312423167 Frame.java RENAME rollC=>int rollCurrent FIELD
+RefactoringAction 1479312430696 Frame.java RENAME rollCurrent=>int roll FIELD
+EditAction 1479313711183 Frame.java 997 6 11 0

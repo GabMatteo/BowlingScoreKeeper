@@ -5,9 +5,13 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	
+	int[] rolls;
+	int roll;
+	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
+		this.rolls = new int[21];
 	}
 	
 	//the score of a single frame
@@ -24,20 +28,22 @@ public class Frame {
 				frame += 2;
 			} else {
 				
+				
 			}
 		}
 
-		return score;	}
+		return score;	
+	}
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(int frame){
 		
-		return false;
+		return rolls[frame]==10;
 	}
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(int frame){
-		
+
 		return false;
 	}
 
